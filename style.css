@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    cursor:grab;
+    text-decoration: none;
+}
+.cont-navlogin{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(49, 49, 49);
+}
+.txt-login{
+    text-decoration: none;
+    color: white;
+}
+.txt-login:hover{
+    color: rgb(150, 150, 150);
+}
+.cont-carro{
+    display: flex;
+}
+.txt-l-c{
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(35, 209, 209);
+}
+.txt-l-c:hover{
+    color: rgb(29, 133, 133);
+}
+.img-carro{
+    display: flex;
+    align-items: center;
+}
+.cont-fecha{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+#fecha{
+    color: white;
+    background: rgb(201,27,27);
+    background: linear-gradient(90deg, rgba(201,27,27,1) 0%, rgba(255,0,181,1) 100%);
+    border-radius: 18px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+/* ---------------------- MENU --------------------------- */
+.cont-menu{
+    background-image: url(imagenes/1.jpg);
+    background-size: cover;
+    height: 680px;
+    margin-bottom: 20px;
+}
+.cont-menu2{
+    background-color: white;
+}
+.navbar{ 
+    justify-content: flex-end;
+    padding-top: 20px; 
+}
+.ul-nav{
+    display: flex;
+    flex-flow: row wrap;
+}
+.div-nav{
+    padding: 20px;
+    align-items: center;
+}
+.div-nav2{
+    padding: 20px;
+}
+.div-nav2 input{
+    border: 1px solid rgb(197, 197, 197);
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.txt-nav-h{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+.txt-nav-h:hover{
+    color: rgb(35, 209, 209);  
+}
+.txt-nav-m{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+.txt-nav-m:hover{
+    color: rgb(35, 209, 209);
+}
+.txt-nav{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+.txt-nav:hover{
+    color: rgb(35, 209, 209);  
+}
+#ul-submenu1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);   
+    height: 0;
+    width: 400px;
+    margin-top: 10px;
+    overflow: hidden;   
+    transition: .2s;
+}
+#ul-submenu2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);   
+    height: 0;
+    width: 400px;
+    margin-top: 10px;
+    overflow: hidden;   
+    transition: .2s;
+}
+.sub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.fila{
+    padding: 15px;
+    text-align: left;
+}
+.propag{
+    background-color: rgb(49, 49, 49);  
+    height: 120px;
+    width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+.txt-propag{
+    color: white;
+    font-size: 32px;
+}
+.txt-propag2{
+    color: white;
+}
+.txt-submenu{
+    margin-bottom: 25px;
+}
+.txt-submenu a{
+    color: rgb(150, 150, 150);
+}
+.txt-submenu:hover{
+    color: rgb(35, 209, 209);  
+}
+
+/* ---------------------- ARTICULOS --------------------------- */
+/* -------- MENU 2 -------- */
+.divisor{
+    display: flex;
+    border-top: 1px solid rgb(216, 216, 216);
+    width: 80%;
+    margin: 0 auto;
+}
+.cont-menu2{
+    margin-bottom: 20px;
+}
+.ul-nav2{
+    display: flex;
+    flex-flow: row wrap;
+}
+.div-nav2{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.txt-nav-p{
+    text-decoration: none;
+    color: rgb(35, 209, 209);
+    font-weight: bold;
+}
+.txt-nav-p:hover{
+    color: black;
+}
+.txt-nav2{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+.txt-nav2:hover{
+    color: black;
+}
+/* -------- ARTICULOS -------- */
+.articulos{
+    display: flex;
+}
+.cont-img-artic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.txt-artic{
+    color: rgb(56, 56, 56);
+    padding: 10px;
+}
+.txt-d{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    padding: 10px;
+}
+.icon-grupo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    bottom: 25px;
+    justify-content: space-around;
+}
+.icon-d{
+    border-radius: 50px;
+    padding: 10px;
+}
+/*________________ ARTIC 1 ___________________*/
+.artic{   
+    border: 1px solid rgb(224, 224, 224);
+    width: 250px;
+    height: 320px;
+    margin: 10px;
+    z-index: 99;
+    cursor:grab; 
+}
+.producto{
+    background-image: url(imagenes/item-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#description1{
+    overflow: hidden;
+    height: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;   
+    z-index: 1;
+    transition: .2s;
+}
+/*________________ ARTIC 2 __________________*/
+.artic2{   
+    border: 1px solid rgb(224, 224, 224);
+    width: 250px;
+    height: 380px;
+    margin: 10px;  
+    z-index: 98; 
+    cursor:grab;
+}
+.producto2{
+    background-image: url(imagenes/item-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#description2{
+    overflow: hidden;
+    height: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;   
+    z-index: 1;
+    transition: .2s;
+}
+/*________________ ARTIC 3 __________________*/
+.artic3{
+    border: 1px solid rgb(224, 224, 224);
+    width: 550px;
+    height: 560px;
+    margin: 10px;
+    z-index: 97;
+    cursor:grab;
+}
+.producto3{
+    background-image: url(imagenes/item-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#description3{
+    overflow: hidden;
+    height: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;   
+    z-index: 1;
+    transition: .2s;
+}
+/*________________ ARTIC 4 __________________*/
+.artic4{
+    border: 1px solid rgb(224, 224, 224);
+    width: 540px;
+    height: 480px;
+    margin: 10px;
+    z-index: 96;
+    cursor:grab;
+}
+.producto4{
+    background-image: url(imagenes/item-4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#description4{
+    overflow: hidden;
+    height: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;   
+    z-index: 1;
+    transition: .2s;
+}
+/*________________ ARTIC 5 __________________*/
+.artic5{
+    border: 1px solid rgb(224, 224, 224);
+    width: 270px;
+    height: 350px;
+    margin: 10px;
+    z-index: 95;
+    cursor:grab;
+}
+.producto5{
+    background-image: url(imagenes/item-5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#description5{
+    overflow: hidden;
+    height: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;   
+    z-index: 1;
+    transition: .2s;
+}
+/*________________ ARTIC 6 __________________*/
+.artic6{
+    border: 1px solid rgb(224, 224, 224);
+    width: 270px;
+    height: 350px;
+    margin: 10px;
+    z-index: 94;
+    cursor:grab;
+}
+.producto6{
+    background-image: url(imagenes/item-6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#description6{
+    overflow: hidden;
+    height: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;   
+    z-index: 1;
+    transition: .2s;
+}
+/* ---------------------- REGISTRO --------------------------- */
+.img-reg{
+    display: flex;   
+    background-image: url(imagenes/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    margin-bottom: 20px;
+}
+.img-reg > div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.cont-reg{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.in-reg{
+    border: 1px solid rgb(180, 180, 180);
+    outline: none;
+    padding: 5px;  
+    margin-bottom: 30px;
+    width: 420px;
+}
+.grupo1{
+    padding: 20px;
+}
+.grupo2{
+    padding: 20px;
+}
+.txt-t-reg{
+    font-size: 24px;
+    color: rgb(80, 80, 80);   
+}
+.btn-reg{
+    background: none;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+}
+.btn-reg2{
+    background: none;
+    border: 1px solid black;
+    width: 140px;
+    padding: 10px;
+}
+/* ---------------------- FOOTER --------------------------- */
+.foot{
+    background-color: rgb(238, 238, 238);  
+}
+.cont-grupo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.cont-reloj{
+    display: flex;
+    justify-content: center;
+}
+#reloj{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(26, 128, 146);
+    border-radius: 10px 10px 0 0;
+    width: 90%;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+}
+.txt-info{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 15px;
+}
+.txt-info:hover{
+    color: rgb(160, 160, 160);
+}
+.cont-redes{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: rgb(35, 190, 218);
+    margin: 0 auto;
+}
+.img-foot{
+    padding: 20px;
+}
+.cc > p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 11px;
+}
+
